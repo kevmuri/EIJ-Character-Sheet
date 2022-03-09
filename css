@@ -1,0 +1,15 @@
+.charsheet {
+    background: #DCDCDC	;
+    color: #000000;
+    font-family: 'Patrick Hand';
+}
+
+p {
+    font-family: 'Patrick Hand';
+}
+
+button[type=roll].sheet-bidbutton::before { content: ''; }
+button[type=roll].sheet-rollbutton::before {
+	font-family: 'dicefontd6';
+	content: 'F ';
+}
