@@ -1,0 +1,76 @@
+<div class='col'>
+<h1>Everyone is John</h1>
+<h5>Name</h5>
+<input type="text" name="attr_Name" />
+<button class="rollbutton" type="roll" value="/roll d6" name="roll_Bones">Roll</button>
+</div>
+<h5>Will Power &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;Bid</h5>
+<select name="attr_WillPower">
+      <option value="0" selected="selected">10</option>
+        <option value="1">9</option>
+        <option value="2">8</option>
+        <option value="3">7</option>
+        <option value="4">6</option>
+        <option value="5">5</option>
+        <option value="6">4</option>
+        <option value="7">3</option>
+        <option value="8">2</option>
+        <option value="9">1</option>
+        <option value="10">0</option>
+        </select>
+        <select name="attr_Bid">
+            <option value="0" selected="selected">0</option>
+             <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            </select>
+            <button class="bidbutton" type='roll' value="/w gm @{character_name} bids @{bid}">Bid</button>
+            
+<p><br></p>
+
+<div class='col'>
+
+<h5>Skill 1</h5>
+<input type="text" name="attr_Skill1" />
+<h5>Skill 2</h5>
+<input type="text" name="attr_Skill2" />
+<h5>Skill 3 (Optional)</h5>
+<input type="text" name="attr_Skill3" />
+<p><i>A 3RD SKILL WILL COST 3 STARTING<br>WILL POWER.</i></p>
+
+</div>
+
+<div class='col'>
+
+<h5>Level 1 Obsession</h5>
+<input type="text" name="attr_Obsession1" />
+<h5>Level 2 Obsession</h5>
+<input type="text" name="attr_Obsession2" />
+<h5>Level 3 Obsession</h5>
+<input type="text" name="attr_Obsession3" />
+<p><br></p>
+
+</div>
+
+<div class='col'>
+
+<h5>Phobia</h5>
+<input type="text" name="attr_Phobia" />
+<p><i>-1 TO ANY ROLL IN THE PRESENCE<br>OF YOUR PHOBIA.</i></p>
+
+</div>
+
+<h5>Notes</h5>
+<textarea name="attr_notes"></textarea>
